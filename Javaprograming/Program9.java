@@ -1,7 +1,6 @@
 //write a java program to Find the sum of all elements present in an index which is multiple of 3
 import java.util.Scanner;
 public class Program9 {
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the size of the Array");
@@ -20,8 +19,6 @@ public class Program9 {
 			}
 		}
 		System.out.println(sum);
-		
-
 	}
 
 }
