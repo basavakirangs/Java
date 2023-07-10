@@ -1,6 +1,6 @@
-//write a java program to Find the sum of the all elements present in an index which is multiple of 3 or 5
+//write a java program to Find the Average of the all elements present in an Array
 import java.util.Scanner;
-public class Program10 {
+public class Program11 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -8,18 +8,23 @@ public class Program10 {
 		int size = scan.nextInt();
 		int arr[] = new int[size];
 		int sum =0;
+		int avg=0;
 		
 		System.out.println("Enter the elements of the Array");
 		for (int i=0;i<arr.length;i++){
 			arr[i] = scan.nextInt();
 		}
-		System.out.println("Printing the sum of the all elements present in an index which is multiple of 3 or 5");
+		System.out.println("Printing the Average of the all elements in an Array");
 		for (int i=1;i<arr.length;i++) {
-			if(i%3 == 0 || i%5 == 0 ) {
+			
 			sum += arr[i];
-			}
+			
+			
 		}
+		avg = sum/arr.length;
 		System.out.println(sum);
+		System.out.println(arr.length);
+		System.out.println(avg);
 		
 
 	}
