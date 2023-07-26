@@ -14,13 +14,9 @@ public class Program14 {
 			arr[i] = scan.nextInt();
 		}
 		System.out.println("Printing the the smallest elements in an array");
+		large = arr[0];
 		for (int i=0;i<arr.length;i++){
 			{
-				
-				if(i==0) {
-					large = arr[i];
-					System.out.println(large);
-				}
 			
 			if(arr[i] <= large) {
 				large = arr[i];
